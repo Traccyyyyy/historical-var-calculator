@@ -1,3 +1,13 @@
+### IntelliJ ###
+.idea/
+*.iml
+
+### Build output ###
+build/
+
+target/
+.gradle/
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
