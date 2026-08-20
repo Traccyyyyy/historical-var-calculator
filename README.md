@@ -2,13 +2,13 @@
 ---
 ## 1. Project Overview
 
-This project was completed as a **take-home interview assignment** to demonstrate the design and implementation of a Historical Value at Risk (VaR) calculator.
+This project is a **self-contained Java implementation of a Historical Value at Risk (VaR) calculator**, developed to demonstrate clear, testable financial-data processing and risk-calculation logic.
 
 The application calculates VaR for:
 - a single trade, and
 - an aggregated portfolio of trades,
 
-using historical daily PnL data provided via CSV files.
+using historical daily PnL data read from CSV files.
 
 The implementation focuses on:
 - clear separation of concerns,
@@ -16,7 +16,7 @@ The implementation focuses on:
 - deterministic and reviewable behaviour,
 - and code clarity over production-scale optimisation.
 
-This is a self-contained, simplified MVP intended for technical discussion and evaluation.
+This is a simplified portfolio project focused on correctness, validation and reviewable design.
 It does not include any proprietary, confidential, or production data.
 ---
 ## 2. High-level design
