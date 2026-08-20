@@ -2,7 +2,7 @@
 ---
 ## 1. Project Overview
 
-This project is a **self-contained Java implementation of a Historical Value at Risk (VaR) calculator**, developed to demonstrate clear, testable financial-data processing and risk-calculation logic.
+Originally built in response to a **technical take-home exercise**, this project was subsequently refined into a standalone portfolio project demonstrating clear, testable financial-data processing, validation and Historical VaR calculation logic.
 
 The application calculates VaR for:
 - a single trade, and
