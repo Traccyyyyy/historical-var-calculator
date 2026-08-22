@@ -2,22 +2,16 @@
 ---
 ## 1. Project Overview
 
-Originally built in response to a technical take-home exercise, this project was subsequently refined into a standalone portfolio project demonstrating clear, testable financial-data processing, validation and Historical VaR calculation logic.
-
-The application calculates VaR for:
-- a single trade, and
-- an aggregated portfolio of trades,
-
-using historical daily PnL data read from CSV files.
+A Java project implementing a Historical Value at Risk (VaR) calculator for single trades and weighted portfolios, using historical daily PnL data read from CSV files.
 
 The implementation focuses on:
+
 - clear separation of concerns,
 - explicit assumptions and validation,
 - deterministic and reviewable behaviour,
 - and code clarity over production-scale optimisation.
 
-This is a simplified portfolio project focused on correctness, validation and reviewable design.
-It does not include any proprietary, confidential, or production data.
+This is a simplified, self-contained project focused on correctness, validation and reviewable design. It does not include any proprietary, confidential, or production data.
 ---
 ## 2. High-level design
 The application is structured into clear layers:
